@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:ital@1&display=swap');
+
+:root {
+    --primary-color: #FCD34D;
+    --width-break: 600px;
+    --font-style: 'Kalam', cursive;
+    ;
+}
+
+body{
+    font-family: var(--font-style);
+    margin: 0px 0px;
+}
+
+
+
+#navbar {
+    background-color: var(--primary-color); 
+    padding: 0.5rem;
+    
+}
+
+#navbar h1 {
+    font-size: 2rem;
+    text-align: center; 
+}
+
+main {
+    max-width: var(--width-break);
+    margin: auto;
+    padding: 1rem;
+}
+
+main #txt-input {
+    display: block;
+    width: 100%;
+    height: 10vh;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-family: var(--font-style);
+    font-size: large;
+    font-weight: 700;
+}
+
+
+main #btn-translate {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: var(--primary-color);
+    font-size: large;
+    font-family: var(--font-style);
+    font-weight: 700;
+}
+
+main #txt-aboveTranslateBox {
+    margin-top: 1rem;
+    font-size: large;
+}
+
+
+main #txt-output {
+    border: 1px solid black;
+    width: 100%;
+    height: 10vh;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-family: var(--font-style);
+    font-size: x-large;
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 1rem;
+}
+footer #about {
+    font-size: x-large;
+    font-weight: 400;
+}
+
+footer #about-para {
+    max-width: var(--width-break); 
+    margin: auto;
+    font-size: large;
+}
